@@ -14,7 +14,6 @@ with open('3.in', 'r') as fd:
 result = 0
 
 cmds = re.findall(r"do\(\)|don't\(\)|mul\(\d{1,3},\d{1,3}\)", memory)
-print(cmds)
 
 active = 1
 for cmd in cmds:
