@@ -49,11 +49,5 @@ def count_robots_in_quadrant(t, robots, restroom_size):
 # Count robots in quadrants
 quadrants = [0, 0, 0, 0]
 quadrants = count_robots_in_quadrant(100, robots, restroom_size)
-#for t in range(6):
-#    q = count_robots_in_quadrant(t, robots, restroom_size)
-#    quadrants[0] += q[0]
-#    quadrants[1] += q[1]
-#    quadrants[2] += q[2]
-#    quadrants[3] += q[3]
 
 print(quadrants[0]*quadrants[1]*quadrants[2]*quadrants[3])
